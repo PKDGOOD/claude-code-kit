@@ -2,6 +2,14 @@
 
 These rules apply to every project. Override per-project in the project's own `CLAUDE.md`.
 
+## Principles
+
+- **KISS** — Keep it simple. The simplest solution that works is the best solution.
+- **YAGNI** — Don't build it until you actually need it. No speculative features or "just in case" code.
+- **Atomic units** — Keep commits, PRs, design documents, and task items small and self-contained. Each unit should represent exactly one meaningful change that can be understood, reviewed, and reverted independently.
+- **Ask, don't assume** — When uncertain about intent, requirements, or impact, stop and ask the user. A wrong guess costs more than a clarifying question.
+- **Verify incrementally** — Don't write large amounts of code and check at the end. Build, compile, or test in small steps to catch issues early.
+
 ## Code Quality
 
 - Write readable, maintainable code with clear naming.
